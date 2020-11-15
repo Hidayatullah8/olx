@@ -1,0 +1,62 @@
+.Header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: rgb(238, 231, 231);
+    height: 25px;
+}
+.Header_leftcontainer{
+    width: 20%;
+}
+.Header_leftcontainerLogo{
+    width: 35%;
+
+}.Header_centercontainer{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 60%;
+    margin: 7px;
+    border-radius: 0.5em;
+}
+
+.Header_centerInputField{
+    flex: 1;
+    border: none;
+    /* padding: 0.5em 2em; */
+}
+
+.Header_centerIcon{
+    border-left: 2px solid black;
+    background-color: black;
+    color: white;
+    /* padding: 0.4em 0em; */
+}
+
+.Header_rightcontainer{
+    display: flex;
+    align-items: center;
+}
+
+.Header_rightLinkText{
+    margin-right: 0.9em;
+    font-weight: bold;
+}
+
+.Header_rightButton{
+    border-radius: 999px;
+    padding: 0.5em 2em;
+}
+
+.Header_rightButton:hover {
+   transition: ease-in-out 0.4s;
+   background-color: black;
+   color: white;
+}
+
+.Header_centerPakistan{
+    width: 30%;
+    padding-right: 10px;
+    border: 2px solid white;
+}

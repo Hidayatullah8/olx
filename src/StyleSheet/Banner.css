@@ -1,0 +1,29 @@
+.HomeBanner{
+    width: 100%;
+    object-fit: cover;
+}
+
+.categories_available{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 10px;
+    padding-left: 200px;
+    padding-right: 380px; */
+    
+}
+
+.Actual_categories{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    padding-right: 300px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    
+}
+
+.Category_title{
+    text-align: center;
+}
